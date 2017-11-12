@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">Politics In Nepal</string>
+
+    <string name="text1">यो तपाइँ सबै मानिसहरूका लागि पहिलो खबर हो</string>
+    <string name="text2">यो तपाइँ सबै मानिसहरूका लागि दोस्रो खबर हो</string>
+    <string name="text3">यो तपाइँ सबै मानिसहरूका लागि तेस्रो खबर हो</string>
+    <string name="text4">यो तपाइँ सबै मानिसहरूका लागि चौथो खबर हो</string>
+    <string name="text5">यो तपाइँ सबै मानिसहरूका लागि पाँचौं खबर हो</string>
+    <string name="text6">यो तपाइँ सबै मानिसहरूका लागि छैटौं खबर हो</string>
+    <string name="text7">यो तपाइँ सबै मानिसहरूका लागि सातौं खबर हो</string>
+    <string name="title_activity_secondary_page">SecondaryPage</string>
+
+
+    <string name="disclaimer">"This is the disclaimer page for the application. \nAnd it's not for fun. \nREAD IT!!! This is the disclaimer page for the application. \nAnd it's not for fun. \nREAD IT!!! This is the disclaimer page for the application. \nAnd it's not for fun. \nREAD IT!!!"</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinner_states">
+        <item>---------------------</item>
+        <item>प्रदेश १</item>
+        <item>प्रदेश २</item>
+        <item>प्रदेश ३</item>
+        <item>प्रदेश ४</item>
+        <item>प्रदेश ५</item>
+        <item>प्रदेश ६</item>
+        <item>प्रदेश ७</item>
+
+    </string-array>
+
+    <string-array name="empty">
+        <item>---------------------</item>
+    </string-array>
+
+    <string-array name="state1_districts">
+        <item>---------------------</item>
+        <item> ताप्लेजुङ </item>
+        <item>पाँचथर</item>
+        <item>ईलाम</item>
+        <item>संखुवासभा</item>
+        <item>तेह्रथुम</item>
+        <item>धनकुटा</item>
+        <item>भोजपुर</item>
+        <item>खोटाङ</item>
+        <item>सोलुखुम्बु</item>
+        <item>ओखलढुंगा</item>
+        <item>उदयपुर</item>
+        <item>झापा</item>
+        <item>मोरङ</item>
+        <item>सुनसरी</item>
+
+    </string-array>
+
+
+    <string-array name="state2_districts">
+        <item>---------------------</item>
+        <item>सप्तरी</item>
+        <item>सिराहा</item>
+        <item>धनुषा</item>
+        <item>महोतरी</item>
+        <item>सर्लाही</item>
+        <item>रौतहट</item>
+        <item>बारा</item>
+        <item>पर्सा</item>
+
+    </string-array>
+
+    <string-array name="state3_districts">
+        <item>---------------------</item>
+        <item>दोलखा</item>
+        <item>रामेछाप</item>
+        <item>सिन्धुली</item>
+        <item>काभ्रेपलाञ्चोक</item>
+        <item>सिन्धुपाल्चोक</item>
+        <item>रसुवा</item>
+        <item>नुवाकोट</item>
+        <item>धादिङ</item>
+        <item>चितवन</item>
+        <item>मकवानपुर</item>
+        <item>भक्तपुर</item>
+        <item>ललितपुर</item>
+        <item>काठमाडौ</item>
+
+
+    </string-array>
+
+    <string-array name="state4_districts">
+        <item>---------------------</item>
+        <item>  गोरखा</item>
+        <item>लम्जुङ</item>
+        <item>तनहुँ</item>
+        <item>कास्की</item>
+        <item>मनाङ</item>
+        <item>मुस्ताङ</item>
+        <item>पर्वत</item>
+        <item>स्याङ्जा</item>
+        <item>म्याग्दी</item>
+        <item>बाग्लुङ</item>
+        <item>नवलपरासी (बर्दघाट-सुस्ता पूर्व)</item>
+
+    </string-array>
+
+    <string-array name="state5_districts">
+        <item>---------------------</item>
+        <item> नवलपरासी (बर्दघाट-सुस्ता पश्चिम) </item>
+        <item>रूपन्देहि</item>
+        <item>कपिलवस्तु</item>
+        <item>पाल्पा</item>
+        <item>अर्घाखाँची</item>
+        <item>गुल्मी</item>
+        <item>रूकुम (पूर्वि भाग)</item>
+        <item>रोल्पा</item>
+        <item>प्युठान</item>
+        <item>दाङ देउखुरी</item>
+        <item>बाँके</item>
+        <item>वर्दिया</item>
+
+    </string-array>
+
+    <string-array name="state6_districts">
+        <item>---------------------</item>
+        <item>रूकुम(पश्चिम भाग)</item>
+        <item>सल्यान</item>
+        <item>डोल्पा</item>
+        <item>जुम्ला</item>
+        <item>मुगु</item>
+        <item>हुम्ला</item>
+        <item>कालिकोट</item>
+        <item>जाजरकोट</item>
+        <item>दैलेख</item>
+        <item>सुर्खेत</item>
+
+    </string-array>
+
+    <string-array name="state7_districts">
+        <item>---------------------</item>
+        <item>बाजुरा</item>
+        <item>बझाङ</item>
+        <item>डोटी</item>
+        <item>अछाम</item>
+        <item>दार्चुला</item>
+        <item>बैतडी</item>
+        <item>डडेल्धुरा</item>
+        <item>कञ्चनपुर</item>
+        <item>कैलाली</item>
+
+    </string-array>
+
+    <string-array name="State1District1_area">
+        <item>---------------------</item>
+        <item>कैलाली</item>
+        <item>Banasthali</item>
+        <item>Sorahkhutte</item>
+        <item>Kalanki</item>
+        <item>chabel</item>
+        <item>Bhaktapur</item>
+        <item>Latitpur</item>
+
+    </string-array>
+
+    <string-array name="State2District1_area">
+        <item>---------------------</item>
+        <item>dhfgh</item>
+        <item>nbvc</item>
+        <item>bn vcvx</item>
+        <item>vb vxcv</item>
+        <item>xgnf</item>
+        <item>sdhfsfh</item>
+        <item>dnnxnv</item>
+
+    </string-array>
+
+    <string-array name="State3District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+
+
+    <string-array name="State4District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+
+
+    <string-array name="State5District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+    <string-array name="State6District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+
+    <string-array name="State7District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+    <string-array name="State8District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+    <string-array name="State9District1_area">
+        <item>---------------------</item>
+        <item>hsdfg</item>
+        <item>sdsdfh</item>
+        <item>sdfg</item>
+        <item>dfgsdfg</item>
+        <item>sdfgd</item>
+        <item>sdfh</item>
+        <item>Latitpur</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

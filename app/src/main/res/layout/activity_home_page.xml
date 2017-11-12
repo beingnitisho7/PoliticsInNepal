@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/homeSliderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/aboutDevelopers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="#ffffff"
+                    android:src="@drawable/aboutdev" />
+
+
+                <ImageButton
+                    android:id="@+id/appDisclaimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:src="@drawable/desclaimer" />
+
+            </LinearLayout>
+
+
+        </com.daimajia.slider.library.SliderLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.7"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/breaking_news"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:maxLines="1"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_upper"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/menuList"
+            android:background="@android:color/darker_gray" />
+
+        <com.twotoasters.jazzylistview.JazzyListView
+            android:id="@+id/menuList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layout_upper"
+            app:effect="helix"
+            app:max_velocity="0"
+            app:only_animate_fling="false"
+            app:only_animate_new_items="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.68">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:text="विज्ञापनहरू"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramesh.politicsinnepal.Fragments.EducationContents">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+       >
+    <Button
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Video 1" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/video2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Video 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/video3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Video 3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/video4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Video 4" />
+    </LinearLayout>
+</LinearLayout>
+
+</FrameLayout>

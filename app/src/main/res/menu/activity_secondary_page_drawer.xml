@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homePage"
+            android:icon="@drawable/home"
+            android:title="गृह पृष्ठ" />
+        <item
+            android:id="@+id/partyCandidates"
+            android:icon="@drawable/candidates"
+            android:title="पार्टी उम्मेदवारहरू" />
+        <item
+            android:id="@+id/partyInfo"
+            android:icon="@drawable/information"
+            android:title="पार्टीहरूको जानकारी" />
+        <item
+            android:id="@+id/electionEdu"
+            android:icon="@drawable/education"
+            android:title="चुनाव सम्बन्धी शिक्षा" />
+        <item
+            android:id="@+id/citizensPoll"
+            android:icon="@drawable/poll"
+            android:title="नागरिक सर्वेक्षण" />
+    </group>
+
+</menu>

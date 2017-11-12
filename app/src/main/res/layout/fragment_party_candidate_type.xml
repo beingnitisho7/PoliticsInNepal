@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramesh.politicsinnepal.Fragments.PartyElectionType">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/candidate_direct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="प्रत्यक्ष उम्मेदवारहरू"
+                android:background="#4e6dc4"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/candidate_proportional"
+                android:background="#0312ba"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="समानुपातिक उम्मेदवारहरू"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
